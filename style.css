@@ -96,7 +96,6 @@ button {
 }
 
 button:nth-child(1) {
-    size: 20px;
     margin-left: -200px;
     background: #7d2ae8;
 }
@@ -141,8 +140,11 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
-.perks {
-  margin: 0 0 30px 0 !important;
+.heading .perks {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #7d2ae8;
+  margin: 0 0 25px 0 !important;
 }
 .CC{
   margin: 0;
@@ -203,28 +205,29 @@ body {
 
 .CC .cardContainer .card .face.face1 h2 {
   margin: 0;
-
+  font-size: 24px;
   padding: 0;
 }
 
 .CC .cardContainer .card .face.face1 .java {
-  background-color: #fffc00;
-
+  background-color: #37e5e2;
+  font-size: 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .CC .cardContainer .card .face.face1 .python {
-  background-color: #00fffc;
-
+  background-color: #0af4cd;
+  font-size: 20px;
+  font-weight: 300;
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
 }
 
 .CC .cardContainer .card .face.face1 .cSharp {
-  background-color: #fc00ff;
-
+  background-color: #37e5e2;
+  font-size: 20px;
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
@@ -259,7 +262,12 @@ body {
 }
 
 .CC .cardContainer .card:nth-child(1) .face.face2 {
-  background-image: radial-gradient(circle, #b147ee, #a045df, #9042cf, #803fc0, #713bb0, #6e3bad, #6a3ca9, #673ca6, #6d42af, #7447b7, #7a4dc0, #8153c9);
+  background-image: linear-gradient(
+    40deg,
+    #00fffc 0%,
+    #fc00ff 45%,
+    #fffc00 100%
+  );
   border-radius: 15px;
 }
 
@@ -702,7 +710,13 @@ span {
     padding: 8px 12px;
     border-radius: 36px;
     margin-top: 11px;
-}
+  }
+.heading .perks {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: #7d2ae8;
+  margin: 0 0 25px 0 !important;
+  }
   .navbar.active {
     top: 100%;
   }
