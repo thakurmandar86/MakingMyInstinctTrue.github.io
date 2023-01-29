@@ -59,7 +59,7 @@ const myAutoScroll = (element) => {
 }
 
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'Love You Too :)';
+    question.innerHTML = 'Great Choice :)';
 });
 
 noBtn.addEventListener('mouseover', () => {
