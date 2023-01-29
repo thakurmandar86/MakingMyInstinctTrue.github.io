@@ -37,7 +37,16 @@
 .content h1:hover{
   -webkit-text-stroke: 2px #fff;
   color: transparent;
-  }
+}
+
+.fultoo h1{
+  color: white;
+}
+
+.fultoo a{
+  border: 3px solid black;
+  color: white;
+}
 
 /*cardddddddd*/
 
@@ -808,15 +817,6 @@ button:nth-child(2) {
     margin-left: 25%;
   }
 }
-
-.video1{
-  position: absolute;
-  margin-left: 230px;
-  right: 0;
-  border: 0;
-  z-index: -1;
-  
-}
 @media(min-aspect-ratio:16/9){
   .video1{
     width: 100%;
@@ -828,4 +828,15 @@ button:nth-child(2) {
     width: auto;
     height: 100%;
   }
+}
+.video1{
+  position: absolute;
+  margin-left: 230px;
+  right: 0;
+  border: 0;
+  z-index: -1;
+}
+
+#video2 {
+  display: none;
 }
